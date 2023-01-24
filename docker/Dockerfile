@@ -1,6 +1,6 @@
 FROM python:3.10 as build-dep
 
-ENV APP_NAME=mongo_exemple.env
+ENV APP_NAME=metabase/config/mongo_exemple.env
 COPY ${APP_NAME} .
 
 COPY requirements.txt .

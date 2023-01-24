@@ -17,6 +17,7 @@ services:
 
     db:
         image: mongo:latest
+        command: mongod --port 27017
         ports:
             - 5432:27017
         volumes:
