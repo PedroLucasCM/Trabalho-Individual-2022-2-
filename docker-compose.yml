@@ -1,28 +1,35 @@
-version: '3'
+version: '3.1'
 
 services:
-    app:
-        build:
-            dockerfile: docker/Dockerfile
-            context: .
-        depends_on:
-            - db
-        environment:
-            DB_HOST: db
-        volumes:
-            - ./src:/src
-            #- ./migrations:/app/migrations
-        ports:
-            - 8000:8000
+  app:
+    build:
+      dockerfile: docker/Dockerfile
+      context: .
+    depends_on:
+      - mongo
+    # environment:
+    #   DB_HOST: db
+    # volumes:
+    #   - ./src:/app/src
+    #   - ./migrations:/app/migrations
+    #   - ./alembic.ini:/app/alembic.ini
+    ports:
+      - 3000:3000
 
-    db:
-        image: mongo:latest
-        command: mongod --port 27017
-        ports:
-            - 5432:27017
-        volumes:
-            - /data:/data
-        environment:
-            MONGO_USER: lapis
-            MONGO_PASSWORD: lapis
-            MONGO_DB: app
+  metabase:
+    image: metabase/metabase
+    restart: always
+    environment:
+      MB_DB_TYPE: mongo
+      MB_DB_DBNAME: metabase
+      MB_DB_PORT: 27017
+      MB_DB_USER: lappis
+      MB_DB_PASS: lappis
+      MB_DB_HOST: mongo
+
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: lappis
+      MONGO_INITDB_ROOT_PASSWORD: lappis
