@@ -1,35 +1,42 @@
-version: '3.1'
+version: '3.8'
 
 services:
   app:
+    container_name: app
+    image: python:latest
     build:
       dockerfile: docker/Dockerfile
       context: .
     depends_on:
       - mongo
-    # environment:
-    #   DB_HOST: db
-    # volumes:
-    #   - ./src:/app/src
-    #   - ./migrations:/app/migrations
-    #   - ./alembic.ini:/app/alembic.ini
+    volumes:
+      - .:/app
     ports:
       - 3000:3000
 
   metabase:
-    image: metabase/metabase
-    restart: always
+    container_name: metabase
+    image: metabase/metabase:latest
+    ports:
+      - 5432:5432
     environment:
-      MB_DB_TYPE: mongo
-      MB_DB_DBNAME: metabase
-      MB_DB_PORT: 27017
+      MB_DB_TYPE: postgres
+      MB_DB_DBNAME: lappis
+      MB_DB_PORT: 5432
       MB_DB_USER: lappis
       MB_DB_PASS: lappis
-      MB_DB_HOST: mongo
-
+      MB_DB_HOST: postgres
+    depends_on:
+      - mongo
+ 
   mongo:
-    image: mongo
+    container_name: mongodb
+    image: mongo:latest
     restart: always
+    ports:
+      - 27017:27017
     environment:
       MONGO_INITDB_ROOT_USERNAME: lappis
       MONGO_INITDB_ROOT_PASSWORD: lappis
+    volumes:
+      - .:/data
