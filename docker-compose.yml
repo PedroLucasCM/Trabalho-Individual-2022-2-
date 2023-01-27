@@ -13,6 +13,18 @@ services:
       - .:/app
     ports:
       - 3000:3000
+   
+  mongo:
+    container_name: mongodb
+    image: mongo:latest
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: lappis
+      MONGO_INITDB_ROOT_PASSWORD: lappis
+    volumes:
+      - .:/data
 
   metabase:
     container_name: metabase
@@ -27,16 +39,13 @@ services:
       MB_DB_PASS: lappis
       MB_DB_HOST: postgres
     depends_on:
-      - mongo
- 
-  mongo:
-    container_name: mongodb
-    image: mongo:latest
-    restart: always
-    ports:
-      - 27017:27017
+      - postgres
+  
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    hostname: postgres
     environment:
-      MONGO_INITDB_ROOT_USERNAME: lappis
-      MONGO_INITDB_ROOT_PASSWORD: lappis
-    volumes:
-      - .:/data
+      - POSTGRES_PASSWORD=lappis
+      - POSTGRES_USER=lappis
+      - METABASE_PASSWORD=lappis
