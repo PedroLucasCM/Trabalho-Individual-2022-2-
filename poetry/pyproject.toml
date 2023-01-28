@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ti-poetry"
+version = "0.1.0"
+description = ""
+authors = ["Pedro Cassiano <pcassianomartins@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ti_poetry"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+altair = "4.2"
+cython = "^0.29.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

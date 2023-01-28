@@ -9,6 +9,7 @@ services:
       context: .
     depends_on:
       - mongo
+      - metabase
     volumes:
       - .:/app
     ports:
