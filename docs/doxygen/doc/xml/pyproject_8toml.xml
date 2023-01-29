@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="pyproject_8toml" kind="file" language="C++">
+    <compoundname>pyproject.toml</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">[tool.poetry]</highlight></codeline>
+<codeline><highlight class="normal">name<sp/>=<sp/>&quot;Trabalho-poetry&quot;</highlight></codeline>
+<codeline><highlight class="normal">version<sp/>=<sp/>&quot;0.1.0&quot;</highlight></codeline>
+<codeline><highlight class="normal">description<sp/>=<sp/>&quot;&quot;</highlight></codeline>
+<codeline><highlight class="normal">authors<sp/>=<sp/>[&quot;PedroLucasCM<sp/>&lt;pcassianomartins@gmail.com&gt;&quot;]</highlight></codeline>
+<codeline><highlight class="normal">readme<sp/>=<sp/>&quot;README.md&quot;</highlight></codeline>
+<codeline><highlight class="normal">packages<sp/>=<sp/>[</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/>include<sp/>=<sp/>&quot;src&quot;<sp/>},</highlight></codeline>
+<codeline><highlight class="normal">]</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[tool.poetry.dependencies]</highlight></codeline>
+<codeline><highlight class="normal">python<sp/>=<sp/>&quot;^3.8&quot;</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[build-system]</highlight></codeline>
+<codeline><highlight class="normal">requires<sp/>=<sp/>[&quot;poetry-core&quot;]</highlight></codeline>
+<codeline><highlight class="normal">build-backend<sp/>=<sp/>&quot;poetry.core.masonry.api&quot;</highlight></codeline>
+<codeline></codeline>
+    </programlisting>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/pyproject.toml"/>
+  </compounddef>
+</doxygen>

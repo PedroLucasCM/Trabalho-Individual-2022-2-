@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacetests_1_1data__pipeline_1_1feature__engineering" kind="namespace" language="Python">
+    <compoundname>tests::data_pipeline::feature_engineering</compoundname>
+    <innernamespace refid="namespacetests_1_1data__pipeline_1_1feature__engineering_1_1test__key__smash">tests::data_pipeline::feature_engineering::test_key_smash</innernamespace>
+    <innernamespace refid="namespacetests_1_1data__pipeline_1_1feature__engineering_1_1test__word__embedding">tests::data_pipeline::feature_engineering::test_word_embedding</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacetests_1_1data__pipeline_1_1feature__engineering_1a2748db2ac5eeca809594d47e73b6934c" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tests::data_pipeline::feature_engineering.borala</definition>
+        <argsstring></argsstring>
+        <name>borala</name>
+        <initializer>=  inspect.getfile(inspect.currentframe())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/data_pipeline/feature_engineering/__init__.py" line="5" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/data_pipeline/feature_engineering/__init__.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetests_1_1data__pipeline_1_1feature__engineering_1af901b8da084470e6cc83dfb0e2fda11d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tests::data_pipeline::feature_engineering.currentdir</definition>
+        <argsstring></argsstring>
+        <name>currentdir</name>
+        <initializer>=  os.path.dirname(
+    os.path.abspath(<ref refid="namespacetests_1_1data__pipeline_1_1feature__engineering_1a2748db2ac5eeca809594d47e73b6934c" kindref="member">borala</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/data_pipeline/feature_engineering/__init__.py" line="6" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/data_pipeline/feature_engineering/__init__.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetests_1_1data__pipeline_1_1feature__engineering_1a889ac739705ea5e644b7549c5a8760c7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tests::data_pipeline::feature_engineering.parentdir</definition>
+        <argsstring></argsstring>
+        <name>parentdir</name>
+        <initializer>=  os.path.dirname(os.path.dirname(os.path.dirname(<ref refid="namespacetests_1_1data__pipeline_1_1feature__engineering_1af901b8da084470e6cc83dfb0e2fda11d" kindref="member">currentdir</ref>)))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/data_pipeline/feature_engineering/__init__.py" line="8" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/data_pipeline/feature_engineering/__init__.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/data_pipeline/feature_engineering/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacetests_1_1parser" kind="namespace" language="Python">
+    <compoundname>tests::parser</compoundname>
+    <innernamespace refid="namespacetests_1_1parser_1_1test__feature__engineering__parser">tests::parser::test_feature_engineering_parser</innernamespace>
+    <innernamespace refid="namespacetests_1_1parser_1_1test__model__parser">tests::parser::test_model_parser</innernamespace>
+    <innernamespace refid="namespacetests_1_1parser_1_1test__parser__base">tests::parser::test_parser_base</innernamespace>
+    <innernamespace refid="namespacetests_1_1parser_1_1test__YAML__parser">tests::parser::test_YAML_parser</innernamespace>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacetests_1_1parser_1a23a5c2e78b1fd4cd924589400ebadcee" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tests::parser.borala</definition>
+        <argsstring></argsstring>
+        <name>borala</name>
+        <initializer>=  inspect.getfile(inspect.currentframe())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/__init__.py" line="5" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/__init__.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetests_1_1parser_1ad8164c66455a4e2045d0f50a76ece022" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tests::parser.currentdir</definition>
+        <argsstring></argsstring>
+        <name>currentdir</name>
+        <initializer>=  os.path.dirname(
+    os.path.abspath(<ref refid="namespacetests_1_1parser_1a23a5c2e78b1fd4cd924589400ebadcee" kindref="member">borala</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/__init__.py" line="6" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/__init__.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacetests_1_1parser_1a2855f9c100be7c5218a29f1b81a9e0bf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tests::parser.parentdir</definition>
+        <argsstring></argsstring>
+        <name>parentdir</name>
+        <initializer>=  os.path.dirname(os.path.dirname(<ref refid="namespacetests_1_1parser_1ad8164c66455a4e2045d0f50a76ece022" kindref="member">currentdir</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/__init__.py" line="8" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/__init__.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/__init__.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

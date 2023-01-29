@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="docker-compose_8yml" kind="file" language="C++">
+    <compoundname>docker-compose.yml</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">version:<sp/>&apos;3.8&apos;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">services:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>app:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>container_name:<sp/>app</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>image:<sp/>python:latest</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>build:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>dockerfile:<sp/>docker/Dockerfile</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>context:<sp/>.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>depends_on:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>mongo</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>metabase</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>volumes:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>.:/app</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>.:/app/src</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ports:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>3000:3000</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>mongo:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>container_name:<sp/>mongodb</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>image:<sp/>mongo:latest</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>restart:<sp/>always</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ports:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>27017:27017</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>environment:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MONGO_INITDB_ROOT_USERNAME:<sp/>lappis</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MONGO_INITDB_ROOT_PASSWORD:<sp/>lappis</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>volumes:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>.:/data</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/>metabase:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>container_name:<sp/>metabase</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>image:<sp/>metabase/metabase:latest</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>ports:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>5432:5432</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>environment:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MB_DB_TYPE:<sp/>postgres</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MB_DB_DBNAME:<sp/>lappis</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MB_DB_PORT:<sp/>5432</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MB_DB_USER:<sp/>lappis</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MB_DB_PASS:<sp/>lappis</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>MB_DB_HOST:<sp/>postgres</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>depends_on:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>postgres</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/>postgres:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>image:<sp/>postgres:latest</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>container_name:<sp/>postgres</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>hostname:<sp/>postgres</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>environment:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>POSTGRES_PASSWORD=lappis</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>POSTGRES_USER=lappis</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>-<sp/>METABASE_PASSWORD=lappis</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/docker-compose.yml"/>
+  </compounddef>
+</doxygen>

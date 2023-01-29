@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="test__parser__base_8py" kind="file" language="Python">
+    <compoundname>test_parser_base.py</compoundname>
+    <innerclass refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser" prot="public">tests::parser::test_parser_base::TestModelParser</innerclass>
+    <innernamespace refid="namespacetests_1_1parser_1_1test__parser__base">tests::parser::test_parser_base</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacetests_1_1parser_1_1test__parser__base" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>pytest</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceparser_1_1parser__base" kindref="compound">parser.parser_base</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ParserBase</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser" kindref="compound">TestModelParser</ref>():</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a8c7b96e3fa3aa87016625029689a5843" kindref="member">setup_method</ref>(self):</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a6379f55ef618813577844274af8293c3" kindref="member">object_mock</ref><sp/>=<sp/>{</highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">:<sp/>23}</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a7397a6c36c8bc9eed630b267fb8a805a" kindref="member">parser</ref><sp/>=<sp/><ref refid="classparser_1_1parser__base_1_1ParserBase" kindref="compound">ParserBase</ref>(</highlight><highlight class="stringliteral">&apos;tests/mock/success/ymal_mock.yaml&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a94f3e315df85fe769fe83e37d91da67a" kindref="member">test_try_get_fail</ref>(self):</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>pytest.raises(ValueError)<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>exc:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a7397a6c36c8bc9eed630b267fb8a805a" kindref="member">parser</ref>._try_get(self.<ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a6379f55ef618813577844274af8293c3" kindref="member">object_mock</ref>,<sp/></highlight><highlight class="stringliteral">&apos;feature&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;Error<sp/>in<sp/>file<sp/>ymal_mock.yaml:<sp/>the<sp/>field<sp/>`feature`<sp/>is<sp/>required.&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">in</highlight><highlight class="normal"><sp/>str(exc.value)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>exc.type<sp/>==<sp/>ValueError</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a668dc8a919bb30ada708774c1e27d658" kindref="member">test_get_fallback</ref>(self):</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response<sp/>=<sp/>self.<ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a7397a6c36c8bc9eed630b267fb8a805a" kindref="member">parser</ref>._get(self.<ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a6379f55ef618813577844274af8293c3" kindref="member">object_mock</ref>,<sp/></highlight><highlight class="stringliteral">&apos;feature&apos;</highlight><highlight class="normal">,<sp/>20)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>response<sp/>==<sp/>20</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1af3124bea7d9168e356ef1228b868750f" kindref="member">test_get_good_flow</ref>(self):</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>response<sp/>=<sp/>self.<ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a7397a6c36c8bc9eed630b267fb8a805a" kindref="member">parser</ref>._get(self.<ref refid="classtests_1_1parser_1_1test__parser__base_1_1TestModelParser_1a6379f55ef618813577844274af8293c3" kindref="member">object_mock</ref>,<sp/></highlight><highlight class="stringliteral">&apos;data&apos;</highlight><highlight class="normal">,<sp/>20)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>response<sp/>==<sp/>23</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_parser_base.py"/>
+  </compounddef>
+</doxygen>

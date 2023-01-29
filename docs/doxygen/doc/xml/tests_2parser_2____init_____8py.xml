@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="tests_2parser_2____init_____8py" kind="file" language="Python">
+    <compoundname>tests/parser/__init__.py</compoundname>
+    <innernamespace refid="namespacetests_1_1parser">tests::parser</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacetests_1_1parser" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>os</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>sys</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>inspect</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">borala<sp/>=<sp/>inspect.getfile(inspect.currentframe())</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">currentdir<sp/>=<sp/>os.path.dirname(</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>os.path.abspath(borala))</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">parentdir<sp/>=<sp/>os.path.dirname(os.path.dirname(currentdir))</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">sys.path.insert(0,<sp/>f</highlight><highlight class="stringliteral">&apos;{parentdir}/src&apos;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/__init__.py"/>
+  </compounddef>
+</doxygen>

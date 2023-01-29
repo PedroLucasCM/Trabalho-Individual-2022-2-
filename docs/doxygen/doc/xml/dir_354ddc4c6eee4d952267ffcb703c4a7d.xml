@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_354ddc4c6eee4d952267ffcb703c4a7d" kind="dir">
+    <compoundname>parser</compoundname>
+    <innerfile refid="tests_2parser_2____init_____8py">tests/parser/__init__.py</innerfile>
+    <innerfile refid="test__feature__engineering__parser_8py">test_feature_engineering_parser.py</innerfile>
+    <innerfile refid="test__model__parser_8py">test_model_parser.py</innerfile>
+    <innerfile refid="test__parser__base_8py">test_parser_base.py</innerfile>
+    <innerfile refid="test__YAML__parser_8py">test_YAML_parser.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/"/>
+  </compounddef>
+</doxygen>

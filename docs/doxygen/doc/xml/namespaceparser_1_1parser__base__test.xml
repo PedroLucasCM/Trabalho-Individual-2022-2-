@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespaceparser_1_1parser__base__test" kind="namespace" language="Python">
+    <compoundname>parser::parser_base_test</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceparser_1_1parser__base__test_1aa4fb9a839e6513d0c3554d7b3ffa3ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def parser.parser_base_test.test_try_get</definition>
+        <argsstring>()</argsstring>
+        <name>test_try_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/src/parser/parser_base_test.py" line="5" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/src/parser/parser_base_test.py" bodystart="5" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/src/parser/parser_base_test.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser" kind="class" language="Python" prot="public">
+    <compoundname>tests::parser::test_YAML_parser::TestYamlParser</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1a5b12502165a73342e1cda48845040bb7" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tests.parser.test_YAML_parser.TestYamlParser::yaml</definition>
+        <argsstring></argsstring>
+        <name>yaml</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" line="7" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1a19fea1d2e0eba918491e3c7b9ac2b506" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_YAML_parser.TestYamlParser.setup_method</definition>
+        <argsstring>(self)</argsstring>
+        <name>setup_method</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" line="6" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" bodystart="6" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1ae1ebd80c9563573d5b1a779fa899e2dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_YAML_parser.TestYamlParser.test_yaml_has_path</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_yaml_has_path</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" line="9" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" bodystart="9" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1aec7d9c18dd84e8c79fc06543e6f54558" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_YAML_parser.TestYamlParser.test_yaml_has_id</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_yaml_has_id</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" line="13" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1ae24a66ec3101b88eb65ef11b3ffaa929" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_YAML_parser.TestYamlParser.test_yaml_has_description</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_yaml_has_description</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" line="17" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1a751ce48caec5f1c085432563a90e6815" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_YAML_parser.TestYamlParser.test_yaml_has_feature_settings</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_yaml_has_feature_settings</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" line="21" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1a751ce48caec5f1c085432563a90e6815" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_YAML_parser.TestYamlParser.test_yaml_has_feature_settings</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_yaml_has_feature_settings</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" line="25" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" line="4" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_YAML_parser.py" bodystart="4" bodyend="29"/>
+    <listofallmembers>
+      <member refid="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1a19fea1d2e0eba918491e3c7b9ac2b506" prot="public" virt="non-virtual"><scope>tests::parser::test_YAML_parser::TestYamlParser</scope><name>setup_method</name></member>
+      <member refid="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1ae24a66ec3101b88eb65ef11b3ffaa929" prot="public" virt="non-virtual"><scope>tests::parser::test_YAML_parser::TestYamlParser</scope><name>test_yaml_has_description</name></member>
+      <member refid="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1a751ce48caec5f1c085432563a90e6815" prot="public" virt="non-virtual"><scope>tests::parser::test_YAML_parser::TestYamlParser</scope><name>test_yaml_has_feature_settings</name></member>
+      <member refid="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1a751ce48caec5f1c085432563a90e6815" prot="public" virt="non-virtual"><scope>tests::parser::test_YAML_parser::TestYamlParser</scope><name>test_yaml_has_feature_settings</name></member>
+      <member refid="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1aec7d9c18dd84e8c79fc06543e6f54558" prot="public" virt="non-virtual"><scope>tests::parser::test_YAML_parser::TestYamlParser</scope><name>test_yaml_has_id</name></member>
+      <member refid="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1ae1ebd80c9563573d5b1a779fa899e2dd" prot="public" virt="non-virtual"><scope>tests::parser::test_YAML_parser::TestYamlParser</scope><name>test_yaml_has_path</name></member>
+      <member refid="classtests_1_1parser_1_1test__YAML__parser_1_1TestYamlParser_1a5b12502165a73342e1cda48845040bb7" prot="public" virt="non-virtual"><scope>tests::parser::test_YAML_parser::TestYamlParser</scope><name>yaml</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

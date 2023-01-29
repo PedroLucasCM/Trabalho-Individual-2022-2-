@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dockerfile" kind="file" language="C++">
+    <compoundname>dockerfile</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">FROM<sp/>python:3.8.9<sp/>as<sp/>build-dep</highlight></codeline>
+<codeline><highlight class="normal">COPY<sp/>requirements.txt<sp/>.</highlight></codeline>
+<codeline><highlight class="normal">RUN<sp/>mkdir<sp/>/install</highlight></codeline>
+<codeline><highlight class="normal">RUN<sp/>pip3<sp/>install<sp/>--no-cache-dir<sp/>--upgrade<sp/>pip<sp/>\</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>&amp;&amp;<sp/>pip3<sp/>install<sp/>-I<sp/>--prefix=/install<sp/>--no-cache-dir<sp/>-r<sp/>requirements.txt</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">FROM<sp/>python:3.8</highlight></codeline>
+<codeline><highlight class="normal">WORKDIR<sp/>/app</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">COPY<sp/>--from=build-dep<sp/>/install<sp/>/usr/local</highlight></codeline>
+<codeline><highlight class="normal">COPY<sp/>src<sp/>/app/src</highlight></codeline>
+<codeline><highlight class="normal">COPY<sp/>metabase<sp/>/app/metabase</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">CMD<sp/>[&quot;python3&quot;,<sp/>&quot;src/main.py&quot;]</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/docker/dockerfile"/>
+  </compounddef>
+</doxygen>

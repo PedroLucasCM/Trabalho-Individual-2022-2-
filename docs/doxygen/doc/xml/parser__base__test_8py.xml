@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="parser__base__test_8py" kind="file" language="Python">
+    <compoundname>parser_base_test.py</compoundname>
+    <innernamespace refid="namespaceparser_1_1parser__base__test">parser::parser_base_test</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceparser_1_1parser__base__test" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespaceparser_1_1parser__base" kindref="compound">parser.parser_base</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>ParserBase</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>pytest</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespaceparser_1_1parser__base__test_1aa4fb9a839e6513d0c3554d7b3ffa3ca1" kindref="member">test_try_get</ref>():</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>parser<sp/>=<sp/><ref refid="classparser_1_1parser__base_1_1ParserBase" kindref="compound">ParserBase</ref>()</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/>variable<sp/>=<sp/>{</highlight><highlight class="stringliteral">&apos;field&apos;</highlight><highlight class="normal">:<sp/></highlight><highlight class="stringliteral">&apos;value&apos;</highlight><highlight class="normal">}</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>parser._try_get(variable,<sp/></highlight><highlight class="stringliteral">&apos;field&apos;</highlight><highlight class="normal">)<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;value&apos;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">with</highlight><highlight class="normal"><sp/>pytest.raises(ValueError)<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>e:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser._try_get(variable,<sp/></highlight><highlight class="stringliteral">&apos;missing_field&apos;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>str(e.value)<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;Error<sp/>in<sp/>file<sp/>config.yaml:<sp/>the<sp/>field<sp/>`missing_field`<sp/>is<sp/>required.&apos;</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/src/parser/parser_base_test.py"/>
+  </compounddef>
+</doxygen>

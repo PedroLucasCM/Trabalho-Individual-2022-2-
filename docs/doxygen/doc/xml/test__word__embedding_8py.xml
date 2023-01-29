@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="test__word__embedding_8py" kind="file" language="Python">
+    <compoundname>test_word_embedding.py</compoundname>
+    <innerclass refid="classtests_1_1data__pipeline_1_1feature__engineering_1_1test__word__embedding_1_1TestWordEmbedding" prot="public">tests::data_pipeline::feature_engineering::test_word_embedding::TestWordEmbedding</innerclass>
+    <innernamespace refid="namespacetests_1_1data__pipeline_1_1feature__engineering_1_1test__word__embedding">tests::data_pipeline::feature_engineering::test_word_embedding</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacetests_1_1data__pipeline_1_1feature__engineering_1_1test__word__embedding" refkind="compound"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>numpy<sp/></highlight><highlight class="keyword">as</highlight><highlight class="normal"><sp/>np</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">from</highlight><highlight class="normal"><sp/><ref refid="namespacedata__pipeline_1_1feature__engineering_1_1word__embedding" kindref="compound">data_pipeline.feature_engineering.word_embedding</ref><sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>WordEmbedding</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="classtests_1_1data__pipeline_1_1feature__engineering_1_1test__word__embedding_1_1TestWordEmbedding" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classtests_1_1data__pipeline_1_1feature__engineering_1_1test__word__embedding_1_1TestWordEmbedding" kindref="compound">TestWordEmbedding</ref>:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtests_1_1data__pipeline_1_1feature__engineering_1_1test__word__embedding_1_1TestWordEmbedding_1a0225d4b72e0a89363072e643381a7c52" kindref="member">setup_method</ref>(self):</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lang<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;es&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>dimensions<sp/>=<sp/>25</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>self.<ref refid="classtests_1_1data__pipeline_1_1feature__engineering_1_1test__word__embedding_1_1TestWordEmbedding_1a9f2d23aa595871ba66ac121c9529551d" kindref="member">we</ref><sp/>=<sp/><ref refid="classdata__pipeline_1_1feature__engineering_1_1word__embedding_1_1WordEmbedding" kindref="compound">WordEmbedding</ref>(lang,<sp/>dimensions)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="classtests_1_1data__pipeline_1_1feature__engineering_1_1test__word__embedding_1_1TestWordEmbedding_1ae592d88a78bbf8afbb2dfa9672998cfb" kindref="member">test_get_embedding</ref>(self):</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>text<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;This<sp/>is<sp/>a<sp/>text&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>expected<sp/>=<sp/>[0.06799883,<sp/>0.17547965,<sp/>0.47599664,<sp/>0.16108984,<sp/>-0.1360625,<sp/>-0.10632467,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0.10654568,<sp/>-0.09805,<sp/>-0.33004168,<sp/>-0.33528003,<sp/>-0.23304085,<sp/>0.36661038,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0.5797167,<sp/>0.53252834,<sp/>0.30276018,<sp/>-0.01584417,<sp/>0.85087484,<sp/>0.14121284,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0.74862367,<sp/>-0.33011952,<sp/>0.015432,<sp/>0.02694534,<sp/>0.10118082,<sp/>-0.34017918,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-0.14560167]</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>result<sp/>=<sp/>self.<ref refid="classtests_1_1data__pipeline_1_1feature__engineering_1_1test__word__embedding_1_1TestWordEmbedding_1a9f2d23aa595871ba66ac121c9529551d" kindref="member">we</ref>.get_embedding(text)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">assert</highlight><highlight class="normal"><sp/>np.allclose(result,<sp/>expected)</highlight></codeline>
+    </programlisting>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/data_pipeline/feature_engineering/test_word_embedding.py"/>
+  </compounddef>
+</doxygen>

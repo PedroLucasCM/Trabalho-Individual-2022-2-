@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespacetests_1_1parser_1_1test__feature__engineering__parser" kind="namespace" language="Python">
+    <compoundname>tests::parser::test_feature_engineering_parser</compoundname>
+    <innerclass refid="classtests_1_1parser_1_1test__feature__engineering__parser_1_1TestFeatureEngineeringParser" prot="public">tests::parser::test_feature_engineering_parser::TestFeatureEngineeringParser</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_feature_engineering_parser.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

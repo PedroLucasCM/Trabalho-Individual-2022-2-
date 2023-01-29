@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classtests_1_1parser_1_1test__model__parser_1_1TestParser" kind="class" language="Python" prot="public">
+    <compoundname>tests::parser::test_model_parser::TestParser</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1ac2110e616db4dbfba2e92f33de71e3df" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tests.parser.test_model_parser.TestParser::model_data</definition>
+        <argsstring></argsstring>
+        <name>model_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="8" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a9598de10269f83c133d3e51986e3ece3" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tests.parser.test_model_parser.TestParser::parser</definition>
+        <argsstring></argsstring>
+        <name>parser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="9" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1abd9b658af6b1b7af63bdd5c8ec4e6a2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_model_parser.TestParser.setup_method</definition>
+        <argsstring>(self)</argsstring>
+        <name>setup_method</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="7" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a689fba9ba6c4db49753486c6c8a1eecd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_model_parser.TestParser.test_parser_model</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_parser_model</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="11" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="11" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a17149330d0385115b99a2b4883b1f5fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_model_parser.TestParser.test_get_random_forest_config</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get_random_forest_config</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="32" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="32" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a59dcd58165678cf9396567d16c851581" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_model_parser.TestParser.test_get_columns</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get_columns</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="53" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1ab0b57692266281036dbade84f5cd7c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_model_parser.TestParser.test_get_columns_fallback</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get_columns_fallback</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="58" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="58" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a25ab8ed765fdaca4c6337d5028842ae0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_model_parser.TestParser.test_get_thresholds</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get_thresholds</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="65" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="65" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a4eff3ded9d22b21f35cae6edcfad1feb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_model_parser.TestParser.test_get_thresholds_fallback</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get_thresholds_fallback</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="89" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="89" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a1519ec69b6879b007723db79aa286aba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def tests.parser.test_model_parser.TestParser.test_get_keyboard_smash_default_config</definition>
+        <argsstring>(self)</argsstring>
+        <name>test_get_keyboard_smash_default_config</name>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="96" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="96" bodyend="115"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" line="5" column="1" bodyfile="/mnt/c/Users/Pedro/dev/repo/Trabalho-Individual-2022-2-/tests/parser/test_model_parser.py" bodystart="5" bodyend="115"/>
+    <listofallmembers>
+      <member refid="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1ac2110e616db4dbfba2e92f33de71e3df" prot="public" virt="non-virtual"><scope>tests::parser::test_model_parser::TestParser</scope><name>model_data</name></member>
+      <member refid="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a9598de10269f83c133d3e51986e3ece3" prot="public" virt="non-virtual"><scope>tests::parser::test_model_parser::TestParser</scope><name>parser</name></member>
+      <member refid="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1abd9b658af6b1b7af63bdd5c8ec4e6a2d" prot="public" virt="non-virtual"><scope>tests::parser::test_model_parser::TestParser</scope><name>setup_method</name></member>
+      <member refid="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a59dcd58165678cf9396567d16c851581" prot="public" virt="non-virtual"><scope>tests::parser::test_model_parser::TestParser</scope><name>test_get_columns</name></member>
+      <member refid="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1ab0b57692266281036dbade84f5cd7c2b" prot="public" virt="non-virtual"><scope>tests::parser::test_model_parser::TestParser</scope><name>test_get_columns_fallback</name></member>
+      <member refid="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a1519ec69b6879b007723db79aa286aba" prot="public" virt="non-virtual"><scope>tests::parser::test_model_parser::TestParser</scope><name>test_get_keyboard_smash_default_config</name></member>
+      <member refid="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a17149330d0385115b99a2b4883b1f5fa" prot="public" virt="non-virtual"><scope>tests::parser::test_model_parser::TestParser</scope><name>test_get_random_forest_config</name></member>
+      <member refid="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a25ab8ed765fdaca4c6337d5028842ae0" prot="public" virt="non-virtual"><scope>tests::parser::test_model_parser::TestParser</scope><name>test_get_thresholds</name></member>
+      <member refid="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a4eff3ded9d22b21f35cae6edcfad1feb" prot="public" virt="non-virtual"><scope>tests::parser::test_model_parser::TestParser</scope><name>test_get_thresholds_fallback</name></member>
+      <member refid="classtests_1_1parser_1_1test__model__parser_1_1TestParser_1a689fba9ba6c4db49753486c6c8a1eecd" prot="public" virt="non-virtual"><scope>tests::parser::test_model_parser::TestParser</scope><name>test_parser_model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
