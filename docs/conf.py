@@ -17,8 +17,6 @@ import sys
 sys.path.insert(0, os.path.abspath('../'))
 # sys.path.append('../src')
 
-
-
 # -- Project information -----------------------------------------------------
 
 project = 'Trabalho-Individual-2022-2-'

@@ -1,4 +1,4 @@
-from pynalytics.parser.parser_base import ParserBase
+from parser.parser_base import ParserBase
 
 import pytest
 
